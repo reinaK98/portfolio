@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>P03 - Portfolio Project</title>
+
+  <link href="css/main.css" rel="stylesheet">
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+
+    <a href="home.html">Home</a>
+    <a href="work.html">Interface Design Project</a>
+    <a href="work2.html">Interaction Design Methods Project</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+
+  </div>
+
+  <a class="logo" href="index.html">User Interface Designer</a>
+
+
+
+
+
+
+
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>Interactive Elements</h2>
+
+
+    <!-- In-text link styling section -->
+    <section class="element">
+      <h3>In-text link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.textlink-nav</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;a class="textlink-nav" href="#"&gt;In-text link&lt;/a&gt;</code>
+
+      <h4>Rendered element:</h4>
+      <a class="textlink-nav" href="#">In-text link</a>
+
+    </section>
+
+
+    <!-- Default Button styling section -->
+    <section class="element">
+
+      <h3>Navigation Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.button</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;a class="button" href="#"&gt;Default Button&lt;/a&gt;</code>
+
+      <h4>Rendered element:</h4>
+      <a class="button" href="#">Default Button</a>
+
+    </section>
+
+
+    <!-- Submit/Reset Buttons styling section -->
+    <section class="element">
+      <h3>Submit/Reset Buttons</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.button</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;input class="button" type="reset" value="Reset"&gt;</code>
+
+      <h4>Rendered element:</h4>
+
+      <button class="button" value="Submit">Submit</button>
+      <button class="button" value="Reset">Reset</button>
+
+    </section>
+
+
+    <!-- Text Input Field with Label styling section -->
+    <section class="element">
+      <h3>Text Input Field with Label</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.textinput-nav</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;label class="label"&gt;First name:&lt;/label&gt; &lt;input type="text" class="textinput-nav"&gt;</code>
+
+      <h4>Rendered element:</h4>
+      <label class="label">First name:</label><br>
+      <input type="text" class="textinput-nav"><br>
+      <label class="label">Last name:</label><br>
+      <input type="text" class="textinput-nav"><br><br>
+
+    </section>
+
+
+    <!-- Radio Button with Label styling section -->
+    <section class="element">
+      <h3>Radio Button with Label</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.radio-nav</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;input class="radio-nav" type="radio"&gt; &lt;label&gt;Radio&lt;/label&gt;</code>
+
+      <h4>Rendered element:</h4>
+      <input class="radio-nav" type="radio"> <label>Radio</label>
+
+    </section>
+
+
+    <!-- Image as a Link styling section -->
+    <section class="element">
+      <h3>Image as a Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.imglink-nav</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;a class="imglink-nav" href="#"&gt; &lt;img src="img\334work.PNG" alt="A screenshot photo of IAT334 final project""&gt; &lt;/a&gt;</code>
+
+      <h4>Rendered element:</h4>
+      <a class="imglink-nav" href="#"> <img src="img\334work.PNG" alt="A screenshot photo of IAT334 final project"> </a>
+
+    </section>
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+
+    <h2>Text Elements</h2>
+
+
+    <section class="element">
+      <h3>Headings</h3>
+
+      <h1> Headings 1 </h1>
+      <h2> Headings 2 </h2>
+      <h3> Headings 3 </h3>
+      <h4> Headings 4 </h4>
+
+    </section>
+
+    <section class="element">
+      <h3>Paragraphs</h3>
+
+      <p> This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus nulla efficitur sem gravida, blandit aliquet dolor semper. Maecenas ultrices, ligula vel rhoncus interdum, felis neque fermentum massa, vel cursus erat leo vel augue. Praesent neque ipsum, vestibulum ut convallis vel, accumsan non leo. Curabitur nisl dui, vulputate sed mi et, suscipit tristique justo. Donec gravida eros nec ipsum molestie, et tristique massa mollis. Phasellus volutpat efficitur purus, sed auctor tellus semper vel. Nunc malesuada leo ac lectus hendrerit gravida. Cras laoreet luctus commodo. <br><br>
+
+        Etiam fermentum id diam sollicitudin dignissim. Integer dapibus non arcu ut placerat. Quisque sit amet volutpat ligula. Fusce neque tellus, egestas non sapien ut, suscipit auctor quam. Morbi sed vestibulum nulla. Nulla porta, felis nec tempor viverra, erat lectus bibendum neque, rhoncus euismod lacus mauris quis nisl. Cras congue at mauris ut pellentesque. </p>
+
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+
+        <ol>
+          <li> Number 1 </li>
+          <li> Number 2 </li>
+          <li> Number 3 </li>
+          <li> Number 4 </li>
+          <li> Number 5 </li>
+        </ol>
+
+      </section>
+      <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+      <!-- TEXT ELEMENTS SECTION // -->
+      <section id="branding_ideas">
+
+        <h2>About Me</h2>
+
+        <section class="element">
+          <h3>Bios</h3>
+
+          <p> My name is Reina and I am a user interface designer. I am currently studying Interactive Arts and Technology at Simon Fraser University.<br><br>
+          I am passionate about creating user friendly platforms in different areas of web, especially for game industries.
+          My long-term goal is to work as a UI designer for game platforms where users can upload, purchase, and download games. <br><br>
+          As a designer and a gamer, I thrive to create web spaces that users can navigate as if they are playing a game.</p>
+
+          </section>
+
+          <section class="element">
+            <h3>Colour Palettes</h3>
+
+            <div class="color1"> #e8deff </div>
+            <div class="color2"> #d8c7ff </div>
+            <div class="color3"> #b99aff </div>
+            <div class="color4"> #9b6dff </div>
+            <div class="color5"> #7c40ff </div>
+            <div class="color6"> #6d2aff </div>
+
+          </section>
+
+        </section>
+
+
+
+        <!-- COMBINED ELEMENTS SECTION // -->
+        <section id="combined_elements">
+
+          <section class="element">
+            <h3>My Recent Work</h3>
+
+            <a class="textlink-nav" href="work.html">My Recent Work</a>
+
+          </section>
+
+        </section>
+        <!-- // COMBINED ELEMENTS SECTION -->
+
+
+        <section id="citations">
+
+        </section>
+
+
+
+      </body>
+      </html>
